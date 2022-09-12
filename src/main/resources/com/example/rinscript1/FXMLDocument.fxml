@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane id="AnchorPane" fx:id="apMain" prefHeight="446.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rinscript1.FXMLDocumentController">
+    <children>
+        <Label fx:id="lblMain" layoutX="254.0" layoutY="408.0" minHeight="16" minWidth="69" />
+        <Polygon fx:id="polyOne" fill="DODGERBLUE" layoutX="77.0" layoutY="107.0" points="-70.0, -56.0, -70.0, -100.0, -8.0, -100.0, -8.0, -56.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="polyTwo" fill="DODGERBLUE" layoutX="139.0" layoutY="51.0" points="-70.0, 0.0, -70.0, -44.0, -8.0, -44.0, -8.0, 0.0" stroke="BLACK" strokeType="INSIDE" />
+    </children>
+</AnchorPane>
